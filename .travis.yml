@@ -14,14 +14,13 @@ go:
   - 1.11.x
   - mast
 
-install:
-  - go get -u github.com/kardianos/govendor
-  - govendor sync
+install: true
 
 script:
+  - env GO111MODULE=on go build 
+  - env GO111MODULE=on go test
   - make test
   - make docker_test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) -f .cover/coverage.txt
-
