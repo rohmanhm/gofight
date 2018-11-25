@@ -2,9 +2,6 @@ sudo: required
 
 language: go
 
-services:
-  - docker
-
 go:
   - 1.11.x
   - mast
@@ -17,7 +14,6 @@ env:
 script:
   - go mod tidy
   - make test
-  - make docker_test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) -f .cover/coverage.txt
