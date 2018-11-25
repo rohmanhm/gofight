@@ -1,7 +1,7 @@
 package example
 
 import (
-	"github.com/appleboy/gofight"
+	"github.com/rohmanhm/gofight"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"testing"

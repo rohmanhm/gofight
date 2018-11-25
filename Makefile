@@ -1,6 +1,6 @@
 .PHONY: all example test
 
-export PROJECT_PATH = /go/src/github.com/appleboy/gofight
+export PROJECT_PATH = /go/src/github.com/rohmanhm/gofight
 
 all: test
 

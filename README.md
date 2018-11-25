@@ -1,6 +1,6 @@
 # Gofight
 
-[![GoDoc](https://godoc.org/github.com/appleboy/gofight?status.svg)](https://godoc.org/github.com/appleboy/gofight) [![Build Status](https://travis-ci.org/appleboy/gofight.svg?branch=master)](https://travis-ci.org/appleboy/gofight) [![Go Report Card](https://goreportcard.com/badge/github.com/appleboy/gofight)](https://goreportcard.com/report/github.com/appleboy/gofight) [![codebeat badge](https://codebeat.co/badges/4d8b58ae-67ec-469e-bde6-be3dd336b30d)](https://codebeat.co/projects/github-com-appleboy-gofight) [![codecov](https://codecov.io/gh/appleboy/gofight/branch/master/graph/badge.svg)](https://codecov.io/gh/appleboy/gofight) [![Sourcegraph](https://sourcegraph.com/github.com/appleboy/gofight/-/badge.svg)](https://sourcegraph.com/github.com/appleboy/gofight?badge)
+[![GoDoc](https://godoc.org/github.com/rohmanhm/gofight?status.svg)](https://godoc.org/github.com/rohmanhm/gofight) [![Build Status](https://travis-ci.org/appleboy/gofight.svg?branch=master)](https://travis-ci.org/appleboy/gofight) [![Go Report Card](https://goreportcard.com/badge/github.com/rohmanhm/gofight)](https://goreportcard.com/report/github.com/rohmanhm/gofight) [![codebeat badge](https://codebeat.co/badges/4d8b58ae-67ec-469e-bde6-be3dd336b30d)](https://codebeat.co/projects/github-com-appleboy-gofight) [![codecov](https://codecov.io/gh/appleboy/gofight/branch/master/graph/badge.svg)](https://codecov.io/gh/appleboy/gofight) [![Sourcegraph](https://sourcegraph.com/github.com/rohmanhm/gofight/-/badge.svg)](https://sourcegraph.com/github.com/rohmanhm/gofight?badge)
 
 API Handler Testing for Golang Web framework.
 
@@ -18,13 +18,13 @@ API Handler Testing for Golang Web framework.
 Download this package.
 
 ```bash
-$ go get github.com/appleboy/gofight
+$ go get github.com/rohmanhm/gofight
 ```
 
 To import this package, add the following line to your code:
 
 ```go
-import "github.com/appleboy/gofight"
+import "github.com/rohmanhm/gofight"
 ```
 
 ## Usage
@@ -59,7 +59,7 @@ Testing:
 package main
 
 import (
-  "github.com/appleboy/gofight"
+  "github.com/rohmanhm/gofight"
   "github.com/stretchr/testify/assert"
   "net/http"
   "testing"
